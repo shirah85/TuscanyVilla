@@ -1,2 +1,124 @@
 ﻿body {
+    padding: 0px;
+    border: none;
+    margin: 0px;
+    }
+
+.navbar {
+    background-color: midnightblue;  
+    color: white;   
 }
+
+
+
+.mainSec {
+    background-image: url('images/tuscany-villas-sant-anna.jpg');    
+    background-size: contain;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.subHeader {
+    color: white;
+    text-align: center;
+    background-color: midnightblue;
+    height: 125px;
+    padding-top: 0px;
+    padding-bottom: 0px
+}
+
+.blueRow {
+    background-color: midnightblue;
+    color: white;
+    padding: 0px;
+
+}
+
+.blueRow h3 {
+    background-color:midnightblue
+}
+
+
+.blueRow p {
+    background-color:midnightblue;
+    padding-top: 0px
+
+}
+
+.dots {
+    text-align:center;
+}
+
+.arrow {
+    text-align: right;
+}
+
+
+
+.boxcap {
+    background-image: url('images/3b-348x348 rectangle pool.jpg');
+    text-anchor: middle;
+}
+
+.floating-box {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 3px transparent;
+    text-align: center;
+    background-color:azure;
+    
+}
+#boxA {
+    background-image: url('images/3b-348x348 rectangle pool.jpg');
+    background-size:contain;
+    color:white;
+}
+#boxB {
+    background-image: url('images/42-348x348 round pool.jpg');
+    background-size: contain;
+    color: white;
+}
+#boxC {
+    background-image: url('images/314-348x348 bed.jpg');
+    background-size:initial;
+    color: white;
+}
+#boxD {    
+    background-image: url('images/outdoor table.jpg');
+    background-size: contain;
+    color: white;
+}
+
+#boxE {
+    background-image: url('images/patio.jpg');
+    background-size:contain;
+    color:white;
+}
+
+.input-group {
+    float:none;
+    color:black
+
+}
+
+.row-input{
+    text-align:center
+}
+
+.footer {
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+

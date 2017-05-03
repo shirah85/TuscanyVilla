@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Tuscany Villa</title>
 	<meta charset="utf-8" />
     <!-- CDN JQUERY -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -21,21 +21,238 @@
 </head>
 <body>
 
-    <!-- Tool Bar -->
-       <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Logo</a></li>
-            <li><a href="#about">Location</a></li>
-            <li><a href="#about">Ammenities</a></li>
-            <li><a href="#about">Reviews</a></li>
-            <li><a href="#about">Contacts</a></li>
-        </ul>
-    </div>
+    <!-- Navi Bar -->
+    <nav class="navbar navbar-static-top" id="navvy">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>            
+                <div id="navbar" class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <!--<li class="active"><a href="#"></a></li>-->
+                        <li><a href="#about">Location</a></li>
+                        <li><a href="#about">Ammeneties</a></li>
+                        <li><a href="#about">Reviews</a></li>
+                        <li><a href="#about">Contact</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            <div class="navbar-left">
+                <img src="images/Capture.PNG" sizes="10"/>
+            </div>
+        </div>
+    </nav>
 
     <!--HEADER-->
-    <div class="page-header">
-        <h1 class="container"><img id="logoImg" src="Images/rsz_transparentlogo.png" /></h1>
+    <div class="container mainSec">
+        <div class="col-md-8">
+            <h1> Tuscany Villa </h1>
+            <h3>We specialize in relaxation</h3>
+        </div>
+        <div> 
+            <img src="images/versilia map.jpg" />
+            </div>
+        </div>
+    <!-- Saection 1 -->
+    <section class="subHeader">
+        <div class="col-med-12">
+            <hr />
+            <h2>Locations</h2>
+            <h3>Some places for you to go</h3>
+        </div>
+    </section>
+    <!-- Locations -->
+    <section class="location">
+        <!-- Location1 -->
+        <section class="row">
+            <div class="col-md-8 col-sm-12">
+                <div class="thumbnail">
+                    <h3>Location #1</h3>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>                
+                    <p><a href="#" class="btn btn-primary" role="button">Reserve Now</a></p>      
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/italy-mountain-villa.jpeg" />
+                        <div class="caption">                                                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Location 2 -->
+        <div class="row blueRow">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="images/modern-villa.jpeg" />
+                    <div class="caption">                       
+                    </div>
+                </div>
+            </div>        
+        <div class="blueRow">
+            <div class="col-md-8">
+                <div class="thumbnail">
+                    <h3>Location #2</h3>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p><a href="#" class="btn btn-default" role="button">Check it out!</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Location3 -->
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <div class="thumbnail">
+                    <h3>Location #3</h3>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Join Us</a></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/tuscany-grape-field-nature-51947.jpeg" />                        
+                        <div class="caption">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Section 2 -->
+    <section class="subHeader">
+        <div class="col-med-12">
+            <hr />
+            <h2>Ammenities</h2>
+            <h3>Some stuff for you to enjoy</h3>
+        </div>
+    </section>
+    <!-- boxes -->
+    <div class="container box">
+                <div class="floating-box" id="boxA"><h4>Receptions</h4></div>
+
+            <div class="floating-box">
+                    <h4>A villa for every ocassion</h4>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                <a href="#" class="btn btn-primary" role="button">Check it out</a></p>
+            </div>
+
+                <div class="floating-box" id="boxB"><h4>Relax by the pool</h4></div>
+
+            <div class="floating-box">
+                <h4>What sets us apart</h4>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    <a href="#" class="btn btn-primary" role="button">Check it out</a></p>
+
+            </div>
+                <div class="floating-box" id="boxC"><h4>Feels like home</h4></div>
+
+                <div class="floating-box">
+                    <h4>Talk to Staff</h4>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    <a href="#" class="btn btn-primary" role="button">Check it out</a></p>
+                    </div>
+
+                <div class="floating-box" id="boxD"><h4>Enjoy the views</h4></div>
+
+                <div class="floating-box">
+                    <h4>Book your Villa</h4>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    <a href="#" class="btn btn-primary" role="button">Check it out</a></p>
+                </div>
+
+                <div class="floating-box" id="boxE"> <h4>Private Dining</h4></div>
     </div>
 
+
+
+    <!-- Section 3 -->
+    <section class="subHeader">
+        <div class="col-med-12">
+           
+            <h2>Reviews</h2>
+            <h3>What our customers say</h3>
+        </div>
+    </section>
+    <!-- Section 3.1 -->
+    <div class="col-med-12">
+
+        <a><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <div class="dots">"It was a trip of a lifetime!" <hrs />Jane Doe</div>
+        <div class="dots"><a><span class="glyphicon glyphicon-option-horizontal"></span></a></div>
+        <div class="arrow"><a><span class="glyphicon glyphicon-chevron-right"></span></a></div>
+
+        <!-- contact header -->
+        <section class="subHeader">
+            <div class="col-med-12">
+                <hr />
+                <h2>Contacts</h2>
+                <h3>We have the answers</h3>
+            </div>
+        </section>
+
+        <!-- contact info -->
+        <div class="row-contact">
+            <p>Contact us and well get back with you as soon as possible.</p>
+            <address>
+                Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Cleveland, Ohio:<br>
+                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 555-555-1234<br>
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span> luxuryvacations.com<br>
+            </address>
+        </div>
+        <!-- input bars -->
+
+        <div class="row-input">
+            <div class="input-group">
+                <p>Name:</p>
+                <div class="input-group-top">
+                    <!-- Button and dropdown menu -->
+                </div>
+                <input type="text" class="form-control" aria-label="Name">
+            </div><br /><br /><br /><br />
+
+
+            <div class="input-group">
+                <p>Email:</p>
+                <input type="text" class="form-control" aria-label="Email">
+                <div class="input-group-top">
+                    <!-- Button and dropdown menu -->
+                </div>
+            </div><br /><br /><br /><br />
+
+
+            <div class="input-group">
+                <p>Comment:</p><input type="text" class="form-control" aria-label="Comment" height="48">
+                <div class="input-group-top">
+                    <!-- Button and dropdown menu -->
+                </div><br /><br />
+                <p><a href="#" class="btn btn-primary" role="button">submit</a></p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <section class="subHeader">
+                <div class="col-med-12">
+                    <hr />
+                    <h3><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></h3>
+                    <h4>Created by John Doe</h4>
+                    <h4>Not at all copywrighten</h4>
+                </div>
+            </section>
+        </div>
+
+    </div>
 </body>
 </html>
